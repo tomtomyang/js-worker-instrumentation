@@ -1,0 +1,4 @@
+name = "js-code-inject"
+main = "./src/origin.js"
+zone_id = "YOUR_ZONE_ID"
+create_date = ""
