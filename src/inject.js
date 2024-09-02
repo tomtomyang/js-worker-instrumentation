@@ -104,10 +104,10 @@ function inject(origin, limit) {
   return injected;
 }
 
-const originPath = path.join(__dirname, '../__test__/src/origin.js');
+const originPath = path.join(__dirname, '../test/origin.js');
 const originCode = fs.readFileSync(originPath).toString();
 
 const injected = inject(originCode, 10);
 
-const injectPath = path.join(__dirname, '../__test__/src/injected.js');
+const injectPath = path.join(__dirname, '../test/injected.js');
 fs.writeFileSync(injectPath, injected);

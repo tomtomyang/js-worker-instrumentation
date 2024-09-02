@@ -2,10 +2,10 @@
   "name": "js-code-inject",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/inject.js",
   "author": "tomtomyang@tencent.com",
   "scripts": {
-    "inject": "node ./src/index.js"
+    "inject": "node ./src/inject.js"
   },
   "keywords": [],
   "license": "ISC",
