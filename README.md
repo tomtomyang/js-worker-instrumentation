@@ -1,8 +1,8 @@
-# JavaScript 代码插桩
+# JS Worker 代码插桩
 
 代码插桩（Code Instrumentation）是软件开发中一种重要的动态程序分析技术，它通过在源代码中添加额外的代码来收集运行时信息。这种技术广泛应用于性能监控、调试、测试覆盖率分析等领域。
 
-Babel 作为一个现代 JavaScript 编译器，提供了一系列的包来帮助开发者对代码进行解析、遍历、修改和生成，非常适合用来实现代码插桩。
+Babel 作为一个现代 JavaScript 编译器，提供了一系列的包来帮助开发者对原始代码进行解析、遍历、修改和生成，非常适合用来实现代码插桩。本项目使用 Babel 工具链实现 JavaScript Worker 代码插桩。
 
 ## Babel 工具链
 
@@ -32,4 +32,4 @@ AST 相关可以在 https://astexplorer.net/ 了解。
 
 ## 代码实现
 
-本仓库的代码使用 Babel 实现代码插桩，控制 JS 代码中，循环的执行上限，具体代码实现见 `src/inject.js`。
+本项目使用 Babel 工具链实现 JavaScript Worker 代码插桩，控制 Worker 代码中，循环的执行上限，具体代码实现见 `src/inject.js`。
